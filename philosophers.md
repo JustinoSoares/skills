@@ -6,4 +6,13 @@ A ideia desse projecto é solucionar o problema da alimentação dos philosophor
 - O tempo de morrer, tempo de comer e tempo de dormir não podem ser menores que `60` milisegundos
 
 # Time
-struct timeval
+Estrutura para o tempo 
+```c
+struct timeval time;
+struct timezone zone;
+```
+
+Obter o tempo actual
+```c
+gettimeofday(&time_da_estrutura_timeval, &time_da_estrutura_timezone);
+```

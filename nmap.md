@@ -8,11 +8,15 @@ sudo dnf install nmap
 ```bash
 nmap -iL nome_arquivo
 ```
-  - Exemplo de arquivo
-  ```
-  google.com
+Exemplo de arquivo
+```
+google.com 
 
-  facebook.com
+facebook.com
 
-  instagram.com
-  ```
+instagram.com
+```
+- Comando para fazer scanner em IPs aleatórios
+```bash
+nmap -iR quantidade_de_hosts
+```
